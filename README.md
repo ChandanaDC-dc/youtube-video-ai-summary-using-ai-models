@@ -31,3 +31,6 @@ pip install yt_dlp openai-whisper ffmpeg-python
 | ---------- | --------------------------------------------------- |
 | `audio.py` | Downloads YouTube audio and saves it as `audio.wav` |
 | `text.py`  | Converts the saved audio into text using Whisper    |
+|`summary.py`| Converts the saved raw text into the summarized theory|
+
+for the summarization purpose using the LLM models to convert the raw transcript into summary format, so using their API key. 
